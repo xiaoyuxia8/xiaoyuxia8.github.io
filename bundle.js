@@ -35920,12 +35920,7 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "mui-ellipsis" }, [
-                  _c("span", [
-                    _vm._v(
-                      "发表时间：" + _vm._s(_vm._f("dateFormat")(item.add_time))
-                    )
-                  ]),
-                  _vm._v(" "),
+                  _vm._v("\n            时间:\n            "),
                   _c("span", [_vm._v("点击：" + _vm._s(item.click) + "次")])
                 ])
               ])
@@ -36207,11 +36202,7 @@ var render = function() {
       _c("h3", { staticClass: "title" }, [_vm._v(_vm._s(this.newsinfo.title))]),
       _vm._v(" "),
       _c("p", { staticClass: "subtitle" }, [
-        _c("span", [
-          _vm._v(
-            "发表时间：" + _vm._s(_vm._f("timeFormat")(_vm.newsinfo.add_time))
-          )
-        ]),
+        _c("span", [_vm._v("发表时间：")]),
         _vm._v(" "),
         _c("span", [_vm._v("点击：" + _vm._s(_vm.newsinfo.click) + "次")])
       ]),
